@@ -44,7 +44,7 @@ gensim = "^3.8.2"
 biopython = "^1.76"
 "ruamel.yaml" = "^0.16.10"
 pandas = "^1.2.0"
-h5py = "^3.2.1"
+h5py = "^3.1.0"
 transformers = { version = "^4.5.0", optional = true }
 plotly = "^4.6.0"
 umap-learn = "^0.5.1"
