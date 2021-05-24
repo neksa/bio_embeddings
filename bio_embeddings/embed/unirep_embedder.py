@@ -30,10 +30,10 @@ class UniRepEmbedder(EmbedderInterface):
     _apply_fun: Callable
 
     def __init__(self, device: Union[None, str, torch.device] = None, **kwargs):
-        from jax_unirep.utils import load_params_1900
+        from jax_unirep.utils import load_mlstm_params
         from jax_unirep.featurize import apply_fun
 
-        self._params = load_params_1900()
+        self._params = load_mlstm_params()
         self._apply_fun = apply_fun
 
         # For v2
